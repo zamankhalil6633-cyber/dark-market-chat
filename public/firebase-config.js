@@ -10,14 +10,13 @@ import { getStorage, ref, uploadBytes, getDownloadURL } from "https://www.gstati
 // 🧩 Your Firebase project configuration
 // Replace the below values with your own Firebase project info
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCjTok8sKLDzb2cYmJJIw4CpSg3daAJvAs",
+  authDomain: "night-market-chat.firebaseapp.com",
+  projectId: "night-market-chat",
+  storageBucket: "night-market-chat.firebasestorage.app",
+  messagingSenderId: "748459858165",
+  appId: "1:748459858165:web:bb5f0c168f8cfc26eecdbc"
 };
-
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
