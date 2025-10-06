@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: #00ffcc;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#messages {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+  height: 60vh;
+  overflow-y: auto;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background: #111;
+}
+#form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+input {
+  padding: 10px;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+}
+button {
+  background: #00ffcc;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
